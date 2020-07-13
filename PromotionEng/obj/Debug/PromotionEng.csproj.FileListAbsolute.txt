@@ -8,3 +8,13 @@ C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\Prom
 C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.csproj.CoreCompileInputs.cache
 C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.exe
 C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.pdb
+C:\Promocd\PromotionEng\bin\Debug\PromotionEng.exe.config
+C:\Promocd\PromotionEng\bin\Debug\PromotionEng.exe
+C:\Promocd\PromotionEng\bin\Debug\PromotionEng.pdb
+C:\Promocd\PromotionEng\obj\Debug\PromotionEng.csprojAssemblyReference.cache
+C:\Promocd\PromotionEng\obj\Debug\PromotionEng.Form1.resources
+C:\Promocd\PromotionEng\obj\Debug\PromotionEng.Properties.Resources.resources
+C:\Promocd\PromotionEng\obj\Debug\PromotionEng.csproj.GenerateResource.cache
+C:\Promocd\PromotionEng\obj\Debug\PromotionEng.csproj.CoreCompileInputs.cache
+C:\Promocd\PromotionEng\obj\Debug\PromotionEng.exe
+C:\Promocd\PromotionEng\obj\Debug\PromotionEng.pdb

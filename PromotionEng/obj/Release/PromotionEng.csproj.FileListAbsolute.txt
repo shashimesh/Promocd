@@ -1,0 +1,10 @@
+C:\Promocd\PromotionEng\bin\Release\PromotionEng.exe.config
+C:\Promocd\PromotionEng\bin\Release\PromotionEng.exe
+C:\Promocd\PromotionEng\bin\Release\PromotionEng.pdb
+C:\Promocd\PromotionEng\obj\Release\PromotionEng.csprojAssemblyReference.cache
+C:\Promocd\PromotionEng\obj\Release\PromotionEng.Form1.resources
+C:\Promocd\PromotionEng\obj\Release\PromotionEng.Properties.Resources.resources
+C:\Promocd\PromotionEng\obj\Release\PromotionEng.csproj.GenerateResource.cache
+C:\Promocd\PromotionEng\obj\Release\PromotionEng.csproj.CoreCompileInputs.cache
+C:\Promocd\PromotionEng\obj\Release\PromotionEng.exe
+C:\Promocd\PromotionEng\obj\Release\PromotionEng.pdb

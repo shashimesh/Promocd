@@ -22,33 +22,38 @@ namespace PromotionEng
             row = new string[] { "3", "C", "20", null, "0", "0" };
             dataGridView1.Rows.Add(row);
             row = new string[] { "4", "D", "15", null, "0", "0" };              
-            dataGridView1.Rows.Add(row);                                    
+            dataGridView1.Rows.Add(row);
+            dataGridView1.Columns["Promotion"].Visible = false;
+            dataGridView1.Columns["ProValue"].Visible = false;
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
-
+        /// <summary>
+        /// Validation and calculation for promotion code
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             lbltotal.Text = "0";
-
+            // ------------------   Validation for selecting promocd option ---------------------------------------
             if (cmbTypes.SelectedIndex < 0)
             {
-                MessageBox.Show("Please select promotion type");
+                MessageBox.Show("Please select Promotion Code");
                 return;
             }
 
+            // ------------------   Validation for selecting the SKU Quantity---------------------------------------
             for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
             {
                 if (dataGridView1.Rows[i].Cells[3].Value == null && dataGridView1.Rows[i].Cells[3].ReadOnly == false)
                 {
-                    MessageBox.Show("pls enter Qnty for ID " + dataGridView1.Rows[i].Cells[0].Value);
+                    MessageBox.Show("Please enter Qnty for ID " + dataGridView1.Rows[i].Cells[0].Value);
                     return;
                 }
             }
-                     
+             
+            // --------------------- Calculation for selecting multiple i.e N number of SKU ------------------------------
             if (cmbTypes.SelectedIndex == 0)
             {
                 for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
@@ -84,7 +89,7 @@ namespace PromotionEng
                     }
                 }
             }
-            else if (cmbTypes.SelectedIndex == 1)
+            else if (cmbTypes.SelectedIndex == 1)    //------------------------- Calculation for seconf promo code option (1 SKU) -----------------
             {
                 for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
                 {
@@ -112,12 +117,25 @@ namespace PromotionEng
                     }
                     else
                     {
-                        lbltotal.Text = Convert.ToString(int.Parse(lbltotal.Text) + 15);
+                        if (dataGridView1.Rows[i].Cells[1].Value.ToString() == "C" || dataGridView1.Rows[i].Cells[1].Value.ToString() == "D")
+                        {
+                            lbltotal.Text = Convert.ToString(int.Parse(lbltotal.Text) + 15);
+                        }
+                        else
+                        { 
+                        lbltotal.Text = Convert.ToString(int.Parse(lbltotal.Text) + (int.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString()) * int.Parse(dataGridView1.Rows[i].Cells[3].Value.ToString())));
+                        }
                     }
                 }
             }
         }
 
+
+        /// <summary>
+        /// dropdown selected index change logic
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cmbTypes_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cmbTypes.SelectedIndex == 0)
