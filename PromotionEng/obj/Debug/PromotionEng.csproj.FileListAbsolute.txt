@@ -1,0 +1,10 @@
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\bin\Debug\PromotionEng.exe.config
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\bin\Debug\PromotionEng.exe
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\bin\Debug\PromotionEng.pdb
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.csprojAssemblyReference.cache
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.Form1.resources
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.Properties.Resources.resources
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.csproj.GenerateResource.cache
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.csproj.CoreCompileInputs.cache
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.exe
+C:\Users\ShashikantMeshram\source\repos\PromotionEng\PromotionEng\obj\Debug\PromotionEng.pdb
